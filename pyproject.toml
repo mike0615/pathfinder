@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cyberchief-pathfinder"
+version = "0.1.0.dev1"
+description = "Offline-first network topology investigation"
+requires-python = ">=3.9"
+dependencies = ["cryptography>=3.4.8"]
+license = {text = "MIT"}
+authors = [{name = "Mike Anderson"}]
+
+[project.scripts]
+pathfinder = "pathfinder.server:main"
+
+[tool.setuptools.package-data]
+pathfinder = ["static/*", "help.json"]
+
+[tool.setuptools.packages.find]
+include = ["pathfinder*"]
