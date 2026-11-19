@@ -4,6 +4,10 @@ An offline-first network topology investigation tool for the Cyber Chief toolset
 
 **0.1.0.dev1 is a runnable development foundation, not a qualified network mapper release.** Physical Cisco, Juniper and Netgear devices, Rocky 9/10 installs and browser visual QA remain unverified. See [release report](docs/RELEASE_REPORT.md) and the original [specification](docs/SPEC.md).
 
+![Pathfinder topology workspace showing the synthetic demo network: a connection map, an inspector with a 48-port panel, and a device inventory](docs/images/pathfinder-demo.png)
+
+*Screenshot: the built-in synthetic demo network (documentation-range addresses only). No real devices are involved.*
+
 ## Try it locally
 
 Requires Python 3.9+ and `cryptography`. From a reviewed checkout:
