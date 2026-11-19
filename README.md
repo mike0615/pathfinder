@@ -4,6 +4,8 @@ An offline-first network topology investigation tool for the Cyber Chief toolset
 
 **0.1.0.dev1 is a runnable development foundation, not a qualified network mapper release.** Physical Cisco, Juniper and Netgear devices, Rocky 9/10 installs and browser visual QA remain unverified. See [release report](docs/RELEASE_REPORT.md) and the original [specification](docs/SPEC.md).
 
+**Who it's for:** Network administrators who want to investigate network topology offline, using SNMPv3 collection and a local map (a development foundation; see the status above).
+
 ## Try it locally
 
 Requires Python 3.9+ and `cryptography`. From a reviewed checkout:
@@ -43,3 +45,7 @@ node --check pathfinder/static/app.js
 ```
 
 All fixtures use synthetic data. Never commit real topology, state databases, keys, passwords or device captures. MIT license. Independent project; no Cisco, Juniper, Netgear or Microsoft affiliation or endorsement.
+
+---
+
+**Part of the Cyber Chief toolkit** by Anderson Computer. Sibling projects: [Flagship](https://github.com/mike0615/flagship) · [Flagship Web](https://github.com/mike0615/flagship-web) · [Porthole](https://github.com/mike0615/porthole) · [Skiff](https://github.com/mike0615/skiff) · [Sonar](https://github.com/mike0615/sonar) · [Helm RDP](https://github.com/mike0615/helm-rdp) · [FleetOps](https://github.com/mike0615/fleet-ops) · [Dockyard](https://github.com/mike0615/dockyard) · [CommShack](https://github.com/mike0615/commshack).
